@@ -1,0 +1,79 @@
+body{
+    background-image: url(../img/дикий\ запад.jpg) ;
+    font-family: 'Montserrat', sans-serif;
+}
+form{
+    backdrop-filter: blur(10px);
+    width: 550px;
+    background-color: rgba(255, 255, 255, 0.682);
+    text-align: center;
+    margin: auto;
+    padding: 20px ;
+    
+}
+.center{
+    
+}
+h2{
+    text-align: center;
+    
+}
+.picture{
+ box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.178);
+ border-radius: 500px;
+ width: 60%;
+}
+button{
+    padding: 7px;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+.settings{
+    display: block;
+    margin: auto;
+   margin-top: 7px;
+}
+input{
+    display: block;
+    margin: auto;
+    margin-bottom: 16px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 30px;
+}
+.hints{
+    margin-top: 36px;
+}
+.modal, .wordModal{
+    background-color: rgba(0, 0, 0, 0.481) ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 19;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(10px);
+    transform: translateY(-100%);
+    transition: 0.5s;
+}
+
+    .settingsForm{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+.gif{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+}
